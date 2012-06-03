@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Login Page</title>
+  </head>
+
+  <body>
+   <div>
+     <form action="j_security_check" method=post>
+          <table>
+              <colgroup align="right" valign="top">
+              <tr>
+                <td colspan="2" class="center">Please Sign In (JAAS)</td>
+             </tr>
+              <tr>
+                <td class="desc">Name:</td>
+                <td><input type="text" name="j_username" size="30"maxlength="30" placeholder="Enter your name or email"></td>
+              </tr>
+              <tr>
+                <td  class="desc">Password:</td>
+                <td><input type="password" name="j_password" size="30"maxlength="30"></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="center"><input type="submit" value="Submit"></td>
+             </tr>
+             </colgroup>
+            </table>
+          </form>
+      </div>
+  </body>
+</html>
+
